@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.luis.starbuzzmain.DrinksActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/latte"
+        android:textStyle="bold"
+        android:id="@+id/latte"
+        android:layout_marginTop="67dp"
+        android:textSize="30dp"
+
+        android:layout_below="@+id/drinks_menu"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/cappuccino"
+        android:textStyle="bold"
+        android:id="@+id/cappuccino"
+        android:textSize="30dp"
+        android:layout_below="@+id/latte"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/drinks_menu"
+        android:id="@+id/drinks_menu"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginTop="26dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/hotcocoa"
+        android:id="@+id/hotcocoa"
+        android:textStyle="bold"
+        android:layout_below="@+id/cappuccino"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="30dp" />
+
+</RelativeLayout>

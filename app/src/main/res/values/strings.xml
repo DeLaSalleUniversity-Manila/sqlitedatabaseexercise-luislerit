@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">StarbuzzMain</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Starbuzz Coffee</string>
+    <string name="drinks">Drinks</string>
+    <string name="food">Food</string>
+    <string name="title_activity_drinks">DrinksActivity</string>
+    <string name="latte">Latte</string>
+    <string name="cappuccino">Cappuccino</string>
+    <string name="drinks_menu">Drinks Menu</string>
+    <string name="hotcocoa">Hot Cocoa</string>
+    <string name="title_activity_latte">Latte</string>
+    <string name="latte_definition">\t\t\tA latte is a coffee drink made with espresso and steamed milk. The term as used in English is a shortened form of the Italian caffè latte, caffelatte or caffellatte, which means "milk coffee".</string>
+</resources>
